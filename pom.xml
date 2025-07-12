@@ -87,6 +87,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.5.6</version>
                 <configuration>
+                         <mainClass>...</mainClass>
                     <!-- IMPORTANT: Replace this with your actual main class name -->
                     <mainClass>com.javaproject.MainApplicationClass</mainClass>
                     <excludes>
