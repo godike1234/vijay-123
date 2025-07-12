@@ -4,14 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-	<mainClass>com.javaproject.MainApplicationClass</mainClass>
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.5.6</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>com.javaproject</groupId>
@@ -89,6 +87,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.5.6</version>
                 <configuration>
+                    <!-- IMPORTANT: Replace this with your actual main class name -->
                     <mainClass>com.javaproject.MainApplicationClass</mainClass>
                     <excludes>
                         <exclude>
@@ -134,4 +133,3 @@
     </distributionManagement>
 
 </project>
-
